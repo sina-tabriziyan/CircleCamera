@@ -24,7 +24,7 @@ import androidx.camera.video.VideoCapture
 import androidx.camera.video.VideoRecordEvent
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
-import com.sina.circlecamera.databinding.DialogCircularCameraBinding
+import com.sina.circlecamera.library.databinding.DialogCircularCameraBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

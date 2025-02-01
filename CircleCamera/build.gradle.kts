@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sina.circlecamera"
+    namespace = "com.sina.circlecamera.library"
     compileSdk = 35
 
     defaultConfig {
