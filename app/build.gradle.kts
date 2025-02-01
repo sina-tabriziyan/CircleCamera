@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-//    implementation("com.github.sina-tabriziyan:CircleCamera:1.0.6") // Use JitPack dependency
+    implementation("com.github.sina-tabriziyan:CircleCamera:v1.0.8") // Use JitPack dependency
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
