@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("maven-publish") // Add this line
 }
 
 android {
@@ -37,6 +38,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":CircleCamera"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
