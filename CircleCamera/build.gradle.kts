@@ -39,7 +39,7 @@ android {
                     from(components["release"])
                     groupId = "com.github.sina-tabriziyan" // Replace with your GitHub username
                     artifactId = "circularcamera" // Replace with your repository name
-                    version = "1.0.3" // Replace with your version
+                    version = "1.0.6" // Replace with your version
                 }
             }
         }
